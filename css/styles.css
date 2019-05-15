@@ -14,6 +14,14 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #e4f9f5;
+}
+
 h3 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -68,7 +76,7 @@ body {
 
 /* Features */
 
-.fas-size {
+.fas-custom {
     font-size: 3rem;
     line-height: 1.5;
     color: #30e3ca;
@@ -86,4 +94,29 @@ body {
 
 .col-feature {
     padding: 0 40px 0 40px;
+}
+
+/* Testimonials Section */
+
+.container-testimonials {
+    text-align: center;
+    background-color: #11999e;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+.container-press {
+    background-color: #11999e;
+    text-align: center;
+}
+
+.press-images {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
