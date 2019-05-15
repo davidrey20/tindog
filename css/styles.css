@@ -1,6 +1,6 @@
 #title {
-    background-color: #e3fdfd;
-    color: #71c9ce;
+    background-color: #e4f9f5;
+    color: #11999e;
 }
 
 .container-fluid {
@@ -12,6 +12,13 @@ h1 {
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #40514e;
 }
 
 body {
@@ -50,9 +57,33 @@ body {
 
 .title-image {
     width: 60%;
-    transform: rotate(25deg)
+    transform: rotate(25deg);
+    margin-top: 25%;
+
 }
 
 .image-container {
     text-align: center;
+}
+
+/* Features */
+
+.fas {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #30e3ca;
+}
+
+#features {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.feature-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
+
+.col-feature {
+    padding: 0 40px 0 40px;
 }
