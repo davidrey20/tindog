@@ -1,10 +1,5 @@
-#title {
-    background-color: #00adb5;
-    color: #222831;
-}
-
-.container-fluid {
-    padding: 3% 15%;
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -29,8 +24,13 @@ h3 {
     color: #393e46;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
+#title {
+    background-color: #00adb5;
+    color: #222831;
+}
+
+.container-fluid {
+    padding: 3% 15%;
 }
 
 /* Navigation Bar */
@@ -153,7 +153,7 @@ body {
     padding-top: 5%;
 }
 
-.container-cta>h2 {
+.container-cta h2 {
     color: #222831;
 }
 
